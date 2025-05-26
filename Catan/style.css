@@ -1,3 +1,7 @@
+    *{
+      margin: 0;
+    }
+    
     body {
       margin: 0;
       background-image: url(pics/Sprite-0001.png);
@@ -50,7 +54,6 @@
     #resourceCard{
     margin-bottom: 1px;
     margin-left : 20px;
-    padding-left: 10px;
     width: 200px;
     height: 300px;
     border-radius: 15px;
@@ -64,19 +67,113 @@
     font-size: 20px;
     >h1{
       text-align: center;
-      margin-right: 10px;
       text-decoration: underline solid black 5px;
+      margin-bottom: 30px;
+      margin-top: 10px;
     }
+    >p{
+      padding-left: 10px;
+      margin-bottom: 30px;
+    }
+  }
+    #resources{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px 15px 0px 0px;
+    border: 2px solid black;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.485);
+    background-color: #f4b887;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    >p{
+      margin-top: 2.5%;
+      display: flex;
+      justify-content: space-around;
+    }
+}
+    #shop{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px 15px 0px 0px;
+    border: 2px solid black;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.485);
+    background-color: #f4b887;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    >span{
+          cursor: pointer;
+    }
+}
+  #inventory{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+    #next{
+      margin: 0 10px 10px 0;
+      padding: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.485);
+    background-color: #f4b887;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    >img{
+      width: 75px;
+      height: 75px;
+    }
+}
+    #trade{
+      margin: 0 10px 10px 0;
+      padding: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.485);
+    background-color: #f4b887;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    >img{
+      width: 75px;
+      height: 75px;
+    }
+}
+    #commands{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
 }
 .point {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: red;
+    background: rgba(255, 255, 255, 0.39);
     border-radius: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid gray;
     
   }
 

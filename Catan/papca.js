@@ -2,8 +2,8 @@ const grid = document.getElementById("hexGrid");
 const horizontalSpacing = 86.5;
 const verticalSpacing = 75;
 
-const pointHorizontal = 87;
-const pointVertical = 76;
+const pointHorizontal = 87.05;
+const pointVertical = 75.7;
 
 const layout = [
   { count: 3, offset: 2 },
