@@ -44,7 +44,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #fff;
+      color: #000;
       font-weight: bold;
       font-size: 18px;
       font-family: sans-serif;
@@ -180,3 +180,39 @@
   .point.clicked {
     background: yellow;
   }
+
+.dice {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  font-size: 4rem;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f4b887;
+  width: 5%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wood {
+  background-color: chocolate;
+}
+
+.brick {
+  background-color: brown;
+}
+
+.wool {
+  background-color: cornsilk;
+}
+
+.wheat {
+  background-color: gold;
+}
+
+.stone {
+  background-color: lightslategray;
+}
