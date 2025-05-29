@@ -135,7 +135,7 @@ shuffle(n)
 let resources = document.getElementsByClassName("hex")
 Array.from(resources).forEach((e) => {
   e.classList.add(r.pop())
-  if (!e.classList.contains("desert")) e.innerText = Math.floor(Math.random() * 12) + 1
+  if (!e.classList.contains("desert")) e.innerText = n.pop()
 })
 
 let game = true
